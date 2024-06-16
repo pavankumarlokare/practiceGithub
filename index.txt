@@ -1,0 +1,40 @@
+git commands 
+
+1)to initialize your project with git repository
+
+
+
+
+
+*) create folder and add some txt files in it
+*) go to that folder and rightclick and open gitbash start working on git
+*) echo "# practiceGithub" >> README.md --->creating one sample README.md file
+*) this command git init --> initializes the git repository in your laptop
+*) git add README.md -->this command adds that file to staging area
+*) git commit -m "first commit" --> commit the first code to send our files from  laptop to local repository.
+*) git branch -M main --> this will create main branch in git repository.
+*) git remote add origin https://github.com/pavankumarlokare/practiceGithub.git --> this command establish the connection between local repository to remote repositary
+*) git push -u origin main ---> push our all files or present case it will push the readme.ne file to remote repo
+
+
+echo "# practiceGithub" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pavankumarlokare/practiceGithub.git
+git push -u origin main
+
+
+
+2)To send or push your whole project or files use this below commands
+
+*) git add . --> this command sends all the files to staging area
+*) git add "foldername" -->single file or whole folder we can get them to staging area
+*) git commit -m "commit-name"
+*) git pull  --> check the any changes happens 
+*) git push  ---> this command push your all files to master branch
+
+
+
+ 
